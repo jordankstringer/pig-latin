@@ -8,40 +8,32 @@
 
 **Behavior 1**
 For words that start with a vowel, add "ay" to the end.
-__
 
-**Input**
+* **Input**
 out
-__
-**Output**
+* **Output**
 outay
-__
 
 
 **Behavior 2**
 For words that start with one or more consonants, move all of the first consecutive consonants to the end and add "ay". (If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where the "qu" doesn't come first!)
-__
 
-**Input**
+
+* **Input**
 quiet
-__
 
-**Output**
+* **Output**
 ietquay
-__
 
 
 **Behavior 3**
 For words that start with "y", treat the "y" as a consonant.
-__
 
-**Input**
+* **Input**
 yay
-__
 
-**Output**
+* **Output**
 ayay
-__
 
 
 ## Known Bugs
