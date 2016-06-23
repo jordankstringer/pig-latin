@@ -18,12 +18,29 @@ outay
 **Behavior 2**
 For words that start with one or more consonants, move all of the first consecutive consonants to the end and add "ay". (If the first consonants include "qu", move the "u" along with the "q". Don't forget about words like "squeal" where the "qu" doesn't come first!)
 
+* **Input**
+sort
+
+* **Output**
+ortsay
+
+* **Input**
+strike
+
+* **Output**
+ikestray
 
 * **Input**
 quiet
 
 * **Output**
 ietquay
+
+* **Input**
+squeal
+
+* **Output**
+uealsqay
 
 
 **Behavior 3**
@@ -34,6 +51,15 @@ yay
 
 * **Output**
 ayay
+
+**Behavior 4**
+Once the application can successfully translate single words, apply behaviors to translate entire sentences.
+
+* **Input**
+The dog walked to the park.
+
+* **Output**
+Ethay ogday alkedway otay ethay arkpay.
 
 
 ## Known Bugs
